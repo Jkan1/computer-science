@@ -1,6 +1,6 @@
 # Data Structures
 
-* Array
+## Array
   
   * It holds the same type of data.
   * Elements are stored in contagious memory locations, i.e continuous memory locations with a single name.
@@ -29,3 +29,20 @@
       Avg. Time Complexity : O(n), Case : For Small list
     * Binary Search
       Avg. Time Complexity : O(log n), Case : Sorted array, Large List
+
+
+## Structure
+
+  * Compound data type, used for grouping other data types.
+    Collection of different data types i.e. can be simple or other compund data types.
+    
+  * **Self-Refrential Structures**
+    * A structure definition which includes at least one member that is a pointer to the structure of its own kind.
+      For an example, a Linked list Node containing an address to another Node.
+
+
+### *ADT (Abstract Data Type)*
+
+## Linked List
+
+  
