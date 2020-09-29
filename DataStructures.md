@@ -143,8 +143,10 @@
       In a priority Queue, an element with high priority is served before an element with low Priority.
       
     * **Circular Queue**
-      A Circular Queue uses a single, fixed-size buffer as if it were connected end-to-end.
+      * A Circular Queue uses a single, fixed-size buffer as if it were connected end-to-end.
       Circular Queue is a good implementation for a queue that has fixed maximum size, as their is no shifting involved and the whole Queue can be used up for storing all the elements, which is not possible in an array implementation of Linear Queue.
+      * Circular Queues are used for saving memory as in case of Linear Queue, even after removing an element from the front, new element cannot be inserted on the rear, since the rear-most index still contains some data.
+      So Circular Queues move the Rear pointer as well, pointig to the open space in the front of the Queue, hence called Circular Queue
     
   
 ## Trees
