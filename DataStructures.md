@@ -85,4 +85,51 @@
 
   * A Stack is a linear data structure which stores elements in LIFO (Last In First Out) order.
   * The Insertion and Deletion operations are performed at only one end.
+  * A pointer keeps track of the stack's topmost element.
+  * Implemented using an Array or a Linked List.
+  * Examples : UNDO Operation in text editors, Parentheses checker, Expression Parsing using stacks.
+  
+  * Access      - O(n)
+  * Search      - O(n)
+  * Insertion   - O(1)
+  * Deletion    - O(1)
+  * Space       - O(n)
+  
+  * **Operations**
+    * Push
+      When an element is inserted into stack. The top pointer is moved up to point the element inserted.
+    * Pop
+      When an element is removed from stack. The top pointer is moved down to point the element below the removed element.
+    * Peek
+      This returns the value of the topmost element of the stack.
+      
+      
+## Queues
+
+  * The Insertion and Deletion operations are performed at two different ends.
+  * It follows the FIFO (First In First Out) principle.
+  * Two Pointers keep track of the Front and Rear of the Queue, these two pointers are updated to track the last and first element.
+  * Insertion takes place from the Rear, and Deletion takes place from the Front.
+  * Example : A Queue is used in process scheduling in the Operating System. 
+    A series of processes wait in a Queue waiting to be be executed when required resources are free.
+  
+  * Access      - O(n)
+  * Search      - O(n)
+  * Insertion   - O(1)
+  * Deletion    - O(1)
+  * Space       - O(n)
+  
+  * **Operations**
+    * Enqueue (Insert/Store)
+    When an element is inserted into the queue.
+    The Rear Pointer updates to the item just inserted to point the now-last element in Queue.
+    * Dequeue (Delete/Access)
+    When an element is deleted from the queue.
+    The Front Pointer is updated to the item after the deleted item to point the now-first element in Queue
+  
+  * **Types** 
+    *
+  
+  
+  
   
