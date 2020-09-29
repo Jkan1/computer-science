@@ -1,4 +1,4 @@
-# Data Structures
+# Data Structures 1
 
 ## Array
   
@@ -148,7 +148,5 @@
       * Circular Queues are used for saving memory as in case of Linear Queue, even after removing an element from the front, new element cannot be inserted on the rear, since the rear-most index still contains some data.
       So Circular Queues move the Rear pointer as well, pointig to the open space in the front of the Queue, hence called Circular Queue
     
-  
-## Trees
   
   
