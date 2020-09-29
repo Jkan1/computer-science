@@ -1,5 +1,8 @@
+# Operating System
 
 -  **Scheduling types**
+    * Preemptive and Non-Preemptive Scheduling
+    * The executing process in preemptive scheduling is interrupted in the middle of execution when higher priority one comes whereas, the executing process in non-preemptive scheduling is not interrupted in the middle of execution and wait till its execution
 
 -  **Mutex & Semaphore -** are kernel resources that provide synchronization services (also called as synchronization primitives)
 
@@ -18,6 +21,8 @@
 -   **Context Switching** is the process of storing the state of a process or thread, so that it can be restored and resume execution at a later point. This allows multiple processes to share a single central processing unit, and is an essential feature of a multitasking operating system
 
 -   **Kernel**
+    * kernel threads are implemented and recognized by OS. Kernel level threads are designed as independent threads.
+    * Kernel threads run in the highest privilege level: ring 0. They also run in the kernel's address space and not the address space of any user process/thread. A userspace program/process may not create a kernel thread.
 
 -   **Thread** -  smallest sequence of programmed instructions that can be managed independently by a scheduler, which is typically a part of the operating system
 
@@ -32,3 +37,10 @@
 -   **Task** - unit of execution
 
 -   **Interrupt & Trap Signals**
+    * Interrupts are similar to signals, the difference being that signals are used for inter-process communication (IPC), mediated by the kernel (possibly via system calls) and handled by processes, while interrupts are mediated by the processor and handled by the kernel.
+    * Trap allows you to catch signals and execute code when they occur. Signals are asynchronous notifications that are sent to your script when certain events occur. Most of these notifications are for events that you hope never happen, such as an invalid memory access or a bad system call
+
+
+* Question: What is the difference between Job and Process?
+  * Answer: A process refers to a program under execution. This program may be an application or system program.
+		Job means an application program and it is not a system program. 
