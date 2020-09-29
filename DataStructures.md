@@ -7,7 +7,7 @@
   * Elements can be accessed by iterating through the indices.
   * Cannot be dynamically resized. This may cause the memory assigned to be wasted or insufficient.
   
-  * Access Time - O(1)
+  * Access      - O(1)
   * Search      - O(n)
   * Insertion   - O(n)
   * Deletion    - O(n)
@@ -45,4 +45,44 @@
 
 ## Linked List
 
+  * Linear Data Structure where each element is a separate object, known as a Node.
+    Each Node contains some data and points to the next node in the structure, forming a sequence.
+  * This structure allows efficient insertion or removal of elements from any position, as only the link needs to be changed.
+  
+  * Advantages over Arrays
+    * Flexible in size
+      Linked LIsts are not fixed in size like arrays, they can grow or shrink depending on the data to be inserted.
+    * Efficient Insertion and Deletion
+      These operations are efficient and take constant time as only the link is manipulated not the actual memory location of elements.
+      
+  * Disadvantages over Arrays
+    * Slightly more memory usage
+      As each element has to store its data along with the reference information.
+    * Sequential access
+      Nodes in Linked List must be read in order from the beginning.
+    * Difficult reverse traversal
+      Difficulties arise when it comes to reverse traversing in a Singly Linked List. Can be resolved using Doubly Linked Lists, but this again increases memory as we have to store the previous reference pointer also.
+      
+  * Access      - O(n)
+  * Search      - O(n)
+  * Insertion   - O(1)
+  * Deletion    - O(1)
+  * Space       - O(n)
+  
+  * **Uses of Linked List**
+    * Implement other data structures
+      Used to implement other data structures such as stacks, queues and non-linear ones like trees and graphs.
+    * Hash Chaining
+      It has uses in hash chaining for the implementation in open chaining.
+      
+  * **Types** 
+    * **Singly Linked List :** Every Node has one pointer: next.
+    * **Doubly Linked List :**  Every Node has two pointers: next and previous.
+    * **Circular Linked List :** Last Node connects to the first Node forming a loop.
+  
+  
+## Stacks
+
+  * A Stack is a linear data structure which stores elements in LIFO (Last In First Out) order.
+  * The Insertion and Deletion operations are performed at only one end.
   
