@@ -1,0 +1,18 @@
+
+- **Overloading Scope with Inheritance**
+- **Pass functions as parameters in c++**
+- **variable declaration**
+- **Single, double, triple pointers**
+- **Volatile variable**
+- **Create a Library**
+- **Operator overloading theory**
+- **Types of pointers**
+- **Macros**
+- **Math header file**
+- **STL library**
+- **Long long int / double theory**
+- **Return Types of functions**
+- **Types of Inheritance**
+- **OOPs Polymorphism**
+- **Templates**
+- **Pass by reference theory**
