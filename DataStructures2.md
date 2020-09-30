@@ -22,6 +22,13 @@
     * Depth (no. of edges from root to some node)
     * Path
     
+  * Tree Traversals
+    * Depth First Traversals:
+      * Inorder (Left, Root, Right) : 4 2 5 1 3
+      * Preorder (Root, Left, Right) : 1 2 4 5 3
+      * Postorder (Left, Right, Root) : 4 5 2 3 1
+    * Breadth First or Level Order Traversal : 1 2 3 4 5
+    
   * **Types**
   
     * **Binary Tree**
@@ -47,5 +54,7 @@
           
           
     * **Binary Search Tree**
+      * 
+    
     * **Multiway Search Tree**
     * **AVL Tree**
