@@ -66,11 +66,8 @@
       * A Multiway tree can have **m-1** values per Node and **m** children.
       * Example : B-Tree of order 5, each Node can have max of 4 values and 5 children.
       
-      * **B-Tree**
-        * Allows Search, Insertion and Deletion operations in **log** running time
-        * Props
-          * All Leaf Nodes must be at same Level
-          * 
+      * B-Trees and B+ Trees
+        * https://www.youtube.com/watch?v=aZjYr87r1b8
     
     
     * **AVL Tree**
