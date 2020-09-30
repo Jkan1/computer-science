@@ -23,6 +23,8 @@
     * Depth (no. of edges from root to some node)
     * Path
     
+  * **Generalization :** Bottom Up & **Specialization :** Top to Bottom
+    
   * Tree Traversals
     * Depth First Traversals:
       * Inorder (Left, Root, Right) : 4 2 5 1 3
