@@ -54,3 +54,42 @@
 
 * GQL Common Fields shared btw different Types - Interface (List of Field Types)
 * Other Types can implement Interfaces
+
+
+* Alias used to separate same type of data : { book1 : Book(id :1) {} }
+
+* Fragment : List of fields for a specific type (different than Interface as this is specific)
+
+* Fragment : For Consuming API from Client 
+* Interface : Modelling API on Server
+
+* fragment  someName on Book { id title }
+
+* Use : query BooksQuery { books { …someName } } 
+
+* Union Types : union SearchResult = Author | Book | Review
+
+* Inline Fragments : { … on Book { title author id}}
+
+* Directives : include & skip
+* Directives start with @
+* Example : @include(if : Boolean) , @skip(if: Boolean)
+
+* Mutation - all Queries resolver functions are called sequentially to prevent race conditions (Previously REST API were used in place of mutation)
+* Example : 
+  mutation AddUser{
+  addUser(user:{firstName: "James", lastName:"Moore"}){
+    id
+    firstName
+    lastName
+  }
+} (user is an InputType i.e Object)
+
+* REST API response is either 100% Failure or 100% Success
+* In GQL we can get Mixture of errors and results
+
+* But if GQL Query is invalid, then GQL Validator returns error without calling any Resolver Functions
+* So GQL Server could only return mixtures if Resolver functions are called.
+
+* Case when more than one GQL query is sent to Server,  operationName property is required with the name of the query to execute.
+
