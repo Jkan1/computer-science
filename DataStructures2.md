@@ -25,6 +25,27 @@
   * **Types**
   
     * **Binary Tree**
+      * Every Node can have maximum of 2 children, known as Left child and Right Child.
+      * Props
+        * Max number of nodes at Level 'L' : **(2 * L) - 1**
+        * Max number of nodes in Binary Tree of Height 'H' : **(2 * H) - 1**
+        * Min Height or Level of Binary Tree with 'N' Nodes : **ceil( log( N + 1 ) )**
+        * Min Levels of Binary Tree with 'F' Leaf Nodes : **ceil( log( F ) ) + 1**
+      
+      * **Types**
+        * **Strictly Binary Tree :**
+          A Binary Tree in which every Node has either Two or Zero children.
+          
+        * **Complete Binary Tree :**
+          A Binary Tree in which every Internal Node has exactly Two children and all Leaf Nodes are at same Level.
+          
+        * **Extended Binary Tree :**
+          A Full Binary Tree obtained by adding dummy Nodes.
+          
+        * **Threaded Binary Tree :**
+          A Binary Tree in which all Left child pointers that are NULL points to its In-Order predecessor, and all Right child pointers that are NULL points to its In-Order successor.
+          
+          
     * **Binary Search Tree**
     * **Multiway Search Tree**
     * **AVL Tree**
