@@ -68,6 +68,10 @@
       
       * B-Trees and B+ Trees
         * https://www.youtube.com/watch?v=aZjYr87r1b8
-    
+        * B-Tree 
+          * m/2 children
+          * Root can have min 2 children
+          * Leaf Nodes at same Level
+          * Bottom Up
     
     * **AVL Tree**
