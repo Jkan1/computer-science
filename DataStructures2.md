@@ -17,6 +17,7 @@
     * Internal Node
     * External Node
     * Degree (no. of children)
+    * Order (represents the upper bound on the number of children. ie. the maximum number possible)
     * Level (each step from top to bottom)
     * Height (no. of edges from leaf to some node)
     * Depth (no. of edges from root to some node)
@@ -54,7 +55,20 @@
           
           
     * **Binary Search Tree**
-      * 
+      * The Value stored in each Node must be, Greater than or Equal to any Value stored in the Left Sub-Tree, and Less than or Equal to any Value stored in the Right Sub-Tree.
+      
     
     * **Multiway Search Tree**
+      * Can have more than one Value per Node.
+      * They are written as **m-way Trees** where m means the order of the tree.
+      * A Multiway tree can have **m-1** values per Node and **m** children.
+      * Example : B-Tree of order 5, each Node can have max of 4 values and 5 children.
+      
+      * **B-Tree**
+        * Allows Search, Insertion and Deletion operations in **log** running time
+        * Props
+          * All Leaf Nodes must be at same Level
+          * 
+    
+    
     * **AVL Tree**
