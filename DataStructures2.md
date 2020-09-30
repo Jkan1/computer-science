@@ -75,3 +75,14 @@
           * Bottom Up
     
     * **AVL Tree**
+      * Self Balancing Binary Search Tree. A Binary Tree is said to be Balanced if the difference between the heights of left and right subtrees of every Node in the Tree is either -1,0 or +1 ( known as Balance Factor).
+      * Balance Factor : height(left_subtree) - height(right_subtree)
+      * During a modification operation if the height difference of more than 1 arises between two subtrees, the Parent subtree has to be rebalanced to satisfy AVL property.
+      * Tree Rotations
+        * Rotation is process of moving the Nodes to either Left or Right to make Tree Balanced.
+        * Single Left Rotation (LL)
+        * Single Right Rotation (RR)
+        * Left Right Rotation (LR)
+        * Right Left Rotation (RL)
+        
+    
