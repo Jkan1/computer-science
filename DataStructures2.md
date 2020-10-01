@@ -85,4 +85,49 @@
         * Left Right Rotation (LR)
         * Right Left Rotation (RL)
         
+## Heap
+
+  * A Tree based data structure that satisfies Heap Property.
+  * The Value of Parent is either Greater than or Equal to, OR Less than or Equal to the value of the child.
+  * Types
+    * Max Heap : (Value of Parent is either Greater than or Equal to value of the child)
+    * Min Heap : (Value of Parent is either Less than or Equal to value of the child)
+  * Uses : Heap Sort (Best In-Place sorting), Implementing Priority Queue, Selection Algo, Graph Algo.
+  * Operations
+    * Find Max/Min - Constant time as it's on the root node.
+    * Insert - First insert then keep swapping with parent if greater/lesser than parent.
+    * Delete - Element always deleted from node, Swap Root with Last element, Delete Node, (Swap root position with rightmost node), Heapify.
+
+
+## Graphs
+
+  * Consists of Nodes and Edges used to represent relations between pairs of objects.
+  * Props
+    * A graph G is defined as an ordered set(V, E), V(G) represents the set of Vertices and E(G) represents the Edges.
+    * Directed Graph : Edges have direction, path only from one side not both sides.
+    * Undirected Graph : Edges do not have any direction.
+    * Uses : Network Models, Social Network.
+ * Terms
+    * Vertex
+    * Edge
+    * Undirected Graph
+    * Directed Graph
+    * Mixed Graph
+    * Origin (in directed graph edge starting point)
+    * Destination (in directed graph edge destination)
+    * Adjacency (if two nodes are connected)
+    * Path (Sequence of Edges btw two Vertices)
+    * Degree (No. of Edges connected)
+    * In-Degree (No. of Edges coming to a vertex)
+    * Out-Degree (No. of Edges going out from vertex)
     
+  * Minimum Spanning Tree (MST)
+    * 
+
+
+
+
+
+
+
+
