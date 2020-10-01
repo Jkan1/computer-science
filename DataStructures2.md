@@ -150,7 +150,13 @@
     * Breadth First Search (BFS)
     * Depth First Search (DFS)
 
+  * Breadth First Search (BFS)
+    * Breadth-first search begins at the root node of the graph and explores all its neighbouring nodes. For each of these nodes, the algorithm again explores its neighbouring nodes. This is continued until the specified element is found or all the nodes are exhausted.
+A queue is used as an auxiliary data structure to keep track of the neighboring nodes.
 
+  * Depth First Search (DFS)
+    * Depth-first search starts on a node and explores nodes going deeper and deeper until the specified node is found, or until a node with no children is found. If a node is found with no children, the algorithm backtracks and returns to the most recent node that has not been explored. This process continues until all the nodes have been traversed.
+A stack is used as an auxiliary data structure to keep track of traversed nodes to help it backtrack when required.
 
 
 
