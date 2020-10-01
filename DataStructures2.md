@@ -107,7 +107,7 @@
     * Directed Graph : Edges have direction, path only from one side not both sides.
     * Undirected Graph : Edges do not have any direction.
     * Uses : Network Models, Social Network.
- * Terms
+  * Terms
     * Vertex
     * Edge
     * Undirected Graph
@@ -120,12 +120,35 @@
     * Degree (No. of Edges connected)
     * In-Degree (No. of Edges coming to a vertex)
     * Out-Degree (No. of Edges going out from vertex)
+    * Edge Weight : Each edge of a graph has an associated numerical value, called a weight. Usually, the edge weights are non- negative integers. Weighted graphs may be either directed or undirected. The weight of an edge is often referred to as the "cost" of the edge.
     
   * Minimum Spanning Tree (MST)
-    * 
+    * A minimum spanning tree or minimum weight spanning tree is a subset of the edges of a connected, edge-weighted undirected graph that connects all the vertices together, without any cycles and with the minimum possible total edge weight. That is, it is a spanning tree whose sum of edge weights is as small as possible.
+    * A graph can contain more than one Spanning tree.
+  
+  * Simple Graph: A graph is said to be simple if there are no parallel and self-loop edges.
 
+  * Directed acyclic graph (DAG): A directed acyclic graph (DAG) is a graph that is directed and without cycles connecting the other edges. This means that it is impossible to traverse the entire graph starting at one edge.
 
+  * Weighted Graph: A weighted graph is a graph in which a number (known as the weight) is assigned to each edge. Such weights might represent for example costs, lengths or capacities, depending on the problem.
 
+  * Complete Graph: A complete graph is a graph in which each pair of vertices is joined by an edge. A complete graph contains all possible edges.
+
+  * Connected graph: A connected graph is an undirected graph in which every unordered pair of vertices in the graph is connected. Otherwise, it is called a disconnected graph.
+
+  * Representation of a graph
+  
+    * Adjacency List Representation
+       * In this representation, every vertex of the graph contains a linked list of its neighboring vertices and edges.
+       An array of lists is used where the size of the array is equal to the number of vertices. Each of the elements in the arrays contains a linked list of all the vertices adjacent to the list.
+
+    * Adjacency Matrix Representation
+       * In this representation, the graph can be represented using a matrix of size total number of vertices by the total number of vertices. Here, rows and columns both represent vertices. This matrix is filled with either 1 or 0. Here, 1 represents there is an edge from row vertex to column vertex and 0 represents there is no edge from row vertex to a column vertex.
+       * Adjacency matrix representation requires O(V^2) memory locations irrespective of the number of edges in the graph.
+       
+  * Graph Traversal Algorithms
+    * Breadth First Search (BFS)
+    * Depth First Search (DFS)
 
 
 
