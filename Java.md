@@ -5,6 +5,10 @@
 - **Cyclic Import**
 - **Return Types of functions**
 
+* Java Equals() vs hashCode()
+   * https://www.geeksforgeeks.org/equals-hashcode-methods-java/
+   * https://www.geeksforgeeks.org/override-equalsobject-hashcode-method/
+
 * When to use Character Stream over Byte Stream? 
     * In Java, characters are stored using Unicode conventions. Character stream is useful when we want to process text files. These text files can be processed character by character. A character size is typically 16 bits.
 
