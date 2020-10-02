@@ -10,3 +10,6 @@
 
 * When to use Byte Stream over  Character Stream? 
     * Byte oriented reads byte by byte.  A byte stream is suitable for processing raw data like binary files.
+
+* Names of character streams typically end with Reader/Writer and names of byte streams end with InputStream/OutputStream
+* It is always recommended to close the stream if it is no longer in use. This ensures that the streams won't be affected if any error occurs.
