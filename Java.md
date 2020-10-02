@@ -9,6 +9,10 @@
    * https://www.geeksforgeeks.org/equals-hashcode-methods-java/
    * https://www.geeksforgeeks.org/override-equalsobject-hashcode-method/
 
+* Iterator vs Enumeration
+   * https://www.geeksforgeeks.org/difference-between-iterator-and-enumeration-in-java-with-examples/ 
+
+
 * When to use Character Stream over Byte Stream? 
     * In Java, characters are stored using Unicode conventions. Character stream is useful when we want to process text files. These text files can be processed character by character. A character size is typically 16 bits.
 
