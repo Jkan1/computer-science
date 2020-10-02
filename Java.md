@@ -4,3 +4,9 @@
 - **JVM & JRE & JDK**
 - **Cyclic Import**
 - **Return Types of functions**
+
+* When to use Character Stream over Byte Stream? 
+    * In Java, characters are stored using Unicode conventions. Character stream is useful when we want to process text files. These text files can be processed character by character. A character size is typically 16 bits.
+
+* When to use Byte Stream over  Character Stream? 
+    * Byte oriented reads byte by byte.  A byte stream is suitable for processing raw data like binary files.
